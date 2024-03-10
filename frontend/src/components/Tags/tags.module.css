@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container a {
+  background-color: #f0f0f0;
+  padding: 0.1rem 1rem;
+  margin: 0.1rem 0.15rem;
+  border-radius: 10rem;
+  font-weight: 200;
+  color:#414768;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,.2); 
+}
+.container :hover{
+
+  transform: scale(1.1); 
+}
